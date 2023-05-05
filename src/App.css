@@ -21,12 +21,9 @@ h1 a:visited{
 	color: #33954f;
 }
 
-h2 {
-	margin: 50px 0 0 0;
-	font-size: 35px;
-	font-weight: 700;
-	color: #67aa7a;
-}
+/* h2 {
+	
+} */
 
 em {
 	font-weight: 500;
@@ -68,10 +65,15 @@ main a {
 	background-color: #67aa7a;
 }
 
+section em{
+	color: rgb(64, 63, 63);
+}
+
 footer {
 	margin-top: 30px;
 	border-top: solid 3px;
 	text-align: center;
+	font-size: 17px;
 	font-family: 'Ysabeau', sans-serif;
 }
 
@@ -88,6 +90,13 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.intro h2 {
+	margin: 50px 0 0 0;
+	font-size: 35px;
+	font-weight: 700;
+	color: #67aa7a;
 }
 
 .mobile {
