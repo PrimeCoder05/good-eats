@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
 import Footer from './Footer';
+import Order from './Order';
 
 function App() {
 	return (
@@ -12,7 +13,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/menu" />
-				<Route path="/order" />
+				<Route path="/order" element={<Order />} />
 				<Route path="/about" element={<About />} />
 			</Routes>
 			{<Footer />}
