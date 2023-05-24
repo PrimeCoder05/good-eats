@@ -23,7 +23,7 @@ h1 a:visited{
 
 em {
 	font-weight: 500;
-	color: white;
+	color: rgb(255, 255, 255);
 }
 
 nav {
@@ -86,7 +86,7 @@ footer {
 	font-family: 'Ysabeau', sans-serif;
 }
 
-.intro {
+.hero {
 	background-size: cover;
 	height: 40vh;
 	display: flex;
@@ -95,7 +95,7 @@ footer {
 	align-items: center;
 }
 
-.intro h2 {
+.hero h2 {
 	margin: 50px 0 0 0;
 	font-size: 35px;
 	font-weight: 700;
