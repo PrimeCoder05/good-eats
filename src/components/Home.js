@@ -4,7 +4,7 @@ export default function Home() {
 	return (
 		<>
 			<div className="wrapper">
-				<div className="hero" style={{ backgroundImage: `url(./main-background.jpg)` }}>
+				<div className="hero" style={{ backgroundImage: `url(./images/main-background.jpg)` }}>
 					<h2>GoodEats</h2>
 					<p><em>"Fast food done right"</em></p>
 				</div>

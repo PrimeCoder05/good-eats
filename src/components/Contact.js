@@ -2,7 +2,7 @@ export default function Contact() {
 	return (
 		<>
 			<div className="wrapper">
-				<h2>Online Order</h2>
+				<h2 className="page-name">Online Order</h2>
 				<form>
 					<label htmlFor="first-name">First Name:</label> 
 					<input type="text" name="first-name" id="first-name" autoComplete="given-name" required />

@@ -18,7 +18,7 @@ export default class Navbar extends Component {
 				</ul>
 
 				<div className="mobile" onClick={this.handleClick}>
-					<img src="./icons-menu.png" alt="Other Links" width={25} />
+					<img src="./images/icons-menu.png" alt="Other Links" width={25} />
 				</div>
 			</nav>
 		);

@@ -102,6 +102,19 @@ footer {
 	color: #67aa7a;
 }
 
+.page-name {
+	text-align: center;
+}
+
+.food-navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 35px;
+	font-size: 15px;
+	background-color: #67aa7a;
+}
+
 .mobile {
 	margin-right: 10px;
 	display: none;
